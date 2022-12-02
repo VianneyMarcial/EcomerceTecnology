@@ -20,6 +20,8 @@ export const getProductsThunk = () => (dispatch) => {
     .finally(() => dispatch(setIsLoading(false)));
 };
 
+
+
 export const { setProducts } = productsSlice.actions;
 
 export default productsSlice.reducer;
